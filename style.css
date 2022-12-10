@@ -1,23 +1,32 @@
-body{
-        background-color: #f1f1f1;
-}
+
 .tab{
     background-color: azure;
         height: 1000px;
         position: relative;
 }
+.tab1{
+        filter: brightness(0.5) blur(1px);
+}
+.tab3{
+        background-color: azure;
+}
+.tab4{
+    background-color: azure;
+        filter: brightness(0.3) blur(1px);
+}
+.TTP{
+    text-decoration: none;
+}
 .heading{
-    /* display: flex; */
-        /* flex-wrap: wrap; */
-        /* justify-content: center; */
-        height: 100px;
-        /* align-items: center; */
+    /* height: 82px; */
         background-color: white;
         position: relative;
-        top: -27px;
-        width: 1337px;
+        /* top: 1px; */
+        width: 1333px;
         font-size: x-large;
-        padding: 2px;
+        /* padding: 2px; */
+        border: 1px solid red;
+        padding-left: 24px;
 }
 .list{
         color: blue;
@@ -35,7 +44,7 @@ body{
 .parent{
     display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-around;
         height: 867px;
         align-items: center;
         align-content: center;
